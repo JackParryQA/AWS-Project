@@ -7,7 +7,7 @@ services:
             - '80:80'
         container_name: nginx
     rest:
-        image: vikhilp98/rest
+        image: springcommunity/spring-petclinic-rest
         build: ./spring-petclinic-rest
         ports:
             - '9966:9966'
