@@ -1,5 +1,4 @@
 version: '3.7'
-image: springcommunity/spring-petclinic-rest
 services:
     nginx:
         image: vikhilp98/nginx
@@ -8,7 +7,8 @@ services:
             - '80:80'
         container_name: nginx
     rest:
-        build: springcommunity/spring-petclinic-rest
+        image: springcommunity/spring-petclinic-rest
+        #build: springcommunity/spring-petclinic-rest
         ports:
             - '9966:9966'
         container_name: rest
