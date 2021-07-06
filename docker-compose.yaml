@@ -20,3 +20,4 @@ services:
             - '8080:8080'
         container_name: angular
 # This is only used once
+# Use the public ip of machine
