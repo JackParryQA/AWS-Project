@@ -17,6 +17,6 @@ services:
         image: vikhilp98/angular
         build: ./spring-petclinic-angular
         ports:
-            - '4200:4200'
+            - '8080:8080'
         container_name: angular
 # This is only used once
