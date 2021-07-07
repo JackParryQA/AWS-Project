@@ -1,5 +1,5 @@
 #!/bin/bash
 cd terra
 terraform init
-terraform plan
-terraform apply -y
+terraform plan -out plan.out -no-color
+terraform apply plan.out -no-color
