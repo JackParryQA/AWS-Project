@@ -44,3 +44,9 @@ sudo mv terraform /usr/local/bin
 
 ## Check if terraform working properly
 terraform --version
+
+aws configure
+$ACCESS_KEY
+$SECRET_KEY
+eu-west-2
+json
