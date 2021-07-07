@@ -31,7 +31,7 @@ TERRAFORM_VER=`curl -s https://api.github.com/repos/hashicorp/terraform/releases
 wget https://releases.hashicorp.com/terraform/${TERRAFORM_VER}/terraform_${TERRAFORM_VER}_linux_amd64.zip
  
 ## Unzip the package
-unzip terraform_${TERRAFORM_VER}_linux_amd64.zip -y
+unzip terraform_${TERRAFORM_VER}_linux_amd64.zip
 
 ## Move the package to /usr/local/bin
 sudo mv terraform /usr/local/bin/ && rm terraform_${TERRAFORM_VER}_linux_amd64.zip 
