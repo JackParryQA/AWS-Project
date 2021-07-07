@@ -37,9 +37,10 @@ kubectl version --short --client
 # sudo mv terraform /usr/local/bin/ && rm terraform_${TERRAFORM_VER}_linux_amd64.zip 
 
 sudo apt install -y unzip wget
+rm terraform_*_linux_*.zip
 wget https://releases.hashicorp.com/terraform/0.14.6/terraform_0.14.6_linux_amd64.zip
 unzip terraform_*_linux_*.zip
 sudo mv terraform /usr/local/bin
-rm terraform_*_linux_*.zip
+
 ## Check if terraform working properly
 terraform --version
