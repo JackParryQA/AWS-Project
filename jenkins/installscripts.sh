@@ -34,7 +34,7 @@ wget https://releases.hashicorp.com/terraform/${TERRAFORM_VER}/terraform_${TERRA
 unzip terraform_${TERRAFORM_VER}_linux_amd64.zip
  
 ## Move the package to /usr/local/bin
-sudo mv terraform /usr/local/bin/ && rm terraform_${TERRAFORM_VER}_linux_amd64.zip
+sudo mv terraform /usr/local/bin/ -y && rm terraform_${TERRAFORM_VER}_linux_amd64.zip 
 
 ## Check if terraform working properly
 terraform --version
