@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/workspace/GroupProject
+cd terra
 terraform init
 terraform apply -y
