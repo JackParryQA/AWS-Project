@@ -15,7 +15,11 @@ pipeline {
         }
         stage('Terraform provisions'){
             steps{
-                sh "bash jenkins/terrascripts.sh"
+                script{
+                    if (env.install == "true"){
+                        sh "bash jenkins/terrascripts.sh"
+                    }
+                }
             }
         }
         stage('Kube Build'){
