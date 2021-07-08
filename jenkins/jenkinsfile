@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+    environment {
+        DOCKER_USERNAME = credentials('DOCKER_USERNAME')
+        DOCKER_PASSWORD = credentials('DOCKER_PASSWORD')
+        ACCESS_KEY = credentials('ACCESS_KEY')
+        SECRET_KEY = credentials('SECRET_KEY')
+        install = "false"
+    }
+    stages {
+        stage('Setup'){
+            steps{
+                sh "bash jenkins/installscripts.sh"
+            }
+        }
+        stage('Terraform provisions'){
+            steps{
+                script{
+                    if (env.install == "false"){
+                        sh "bash jenkins/terrascripts.sh"
+                    }
+                }
+            }
+        }
+        stage('Kube Build'){
+            steps{
+                sh "bash jenkins/kubescripts.sh"
+            }
+        }
+    }
+}
