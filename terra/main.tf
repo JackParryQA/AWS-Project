@@ -45,3 +45,12 @@ module "manager_node" {
     vpc_security_group_ids = [module.security_group.sg_id]
     ami_id = var.ami_id
 }
+
+resource "tls_private_key" "this" {
+    algorithm = "RSA"
+}
+module "key_pair" {
+    source ="terraform-aws-modules/key-pair/aws"
+    key_name = "keyname"
+    public_key = tls_private_key.this.public_key_openssh
+}
