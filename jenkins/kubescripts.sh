@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo /usr/local/bin/docker-compose build
-sudo /usr/local/bin/docker-compose push
+sudo docker-compose build
+sudo docker-compose push
 ### TO DO ###
 # Add docker-compose to path
 
