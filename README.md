@@ -9,4 +9,20 @@ https://github.com/spring-petclinic/spring-petclinic-rest
 They were documented applications for the ‘Spring Pet Clinic’ domain, one of which serves as a front end client using AngularJS and the other as an API using Java.
 In short, we were expected to deploy this application.
 
+# User Stories 
+Below is a screenhot of the user stories.
+![ed](./Documentation/user-stories_1.png)
 
+# Technologies Used
+![ed](./Documentation/technologies used.png)
+
+# Risk Assessment
+The following screenshot shows the Risk Assessment carried out. Below that is the screenshot of the Risk Assessment matrix.
+![ed](./Documentation/Risk-Assessment.png)
+![ed](./Documentation/Risk-Assessment_Matrix.png)
+
+# Deployment Pipeline 
+![ed](./Documentation/Deployment-Pipeline.png)
+
+# Price Estimate 
+![ed](./Documentation/price-estimate_ec2medium_EKS.jpg)
