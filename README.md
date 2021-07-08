@@ -21,6 +21,10 @@ The following screenshot shows the Risk Assessment carried out. Below that is th
 ![ed](./documentation/Risk-Assessment.jpg)
 ![ed](./documentation/Risk-Assessment_Matrix.jpg)
 
+# Jenkins Build Stages
+Below is how the pipeline appears on Jenkins:
+![ed](./documentation/jenkins-deploy.jpg)
+
 # Deployment Pipeline 
 ![ed](./documentation/Deployment-Pipeline.png)
 
