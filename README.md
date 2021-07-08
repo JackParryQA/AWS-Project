@@ -6,20 +6,20 @@ One of the purposes of this project was for us to experience working to complete
 We were working with these externally developed applications:
 - https://github.com/spring-petclinic/spring-petclinic-angular
 - https://github.com/spring-petclinic/spring-petclinic-rest
-They were documented applications for the ‘Spring Pet Clinic’ domain, one of which serves as a front end client using AngularJS and the other as an API using Java.
+- They were documented applications for the ‘Spring Pet Clinic’ domain, one of which serves as a front end client using AngularJS and the other as an API using Java.
 In short, we were expected to deploy this application.
 
 # User Stories 
 Below is a screenhot of the user stories.
-![ed](./documentation/user-stories_1.png)
+![ed](./documentation/user-stories_1.jpg)
 
 # Technologies Used
-![ed](./documentation/technologies used.png)
+![ed](./documentation/technologies-used.jpg)
 
 # Risk Assessment
 The following screenshot shows the Risk Assessment carried out. Below that is the screenshot of the Risk Assessment matrix.
-![ed](./documentation/Risk-Assessment.png)
-![ed](./documentation/Risk-Assessment_Matrix.png)
+![ed](./documentation/Risk-Assessment.jpg)
+![ed](./documentation/Risk-Assessment_Matrix.jpg)
 
 # Deployment Pipeline 
 ![ed](./documentation/Deployment-Pipeline.png)
