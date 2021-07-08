@@ -2,6 +2,6 @@
 cd terra
 terraform init
 terraform destroy -auto-approve
-terraform apply -refresh-only -auto-approve
-# terraform plan -out plan.out -no-color
-# terraform apply plan.out -no-color
+#
+terraform plan -out plan.out -no-color
+terraform apply plan.out -no-color
