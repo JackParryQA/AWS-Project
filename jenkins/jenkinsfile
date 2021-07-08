@@ -16,7 +16,7 @@ pipeline {
         stage('Terraform provisions'){
             steps{
                 script{
-                    if (env.install == "true"){
+                    if (env.install == "false"){
                         sh "bash jenkins/terrascripts.sh"
                     }
                 }
