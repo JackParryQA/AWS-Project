@@ -15,7 +15,7 @@ resource "aws_subnet" "public_subnets" {
     map_public_ip_on_launch = true
 
     tags = {
-        "kubernetes.io/cluster/syed_cluster" = "shared"
+        "kubernetes.io/cluster/qa_cluster" = "shared"
     }  
 
 }
