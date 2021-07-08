@@ -26,7 +26,7 @@ Below is how the pipeline appears on Jenkins:
 ![ed](./documentation/jenkins-deploy.jpg)
 
 # Deployment Pipeline 
-![ed](./documentation/Deployment-Pipeline.png)
+![ed](./documentation/Deployment-pipelineV2.png)
 
 # Price Estimate 
 ![ed](./documentation/price-estimate_ec2medium_EKS.jpg)
