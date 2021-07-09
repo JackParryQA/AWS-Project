@@ -29,7 +29,7 @@ Below is how the pipeline appears on Jenkins:
 ![ed](./documentation/Deployment-pipelineV2.png)
 
 # Deployed App
-![ed](./documentation/frontend.png)
+![ed](./documentation/frontend.PNG)
 
 
 # Price Estimate 
