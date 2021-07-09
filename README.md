@@ -33,6 +33,10 @@ Below is how the pipeline appears on Jenkins:
 
 # Price Estimate 
 ![ed](./documentation/price-estimate_ec2medium_EKS.jpg)
+
+An estimated cost for an EC2 medium instance and eks cluster for the month and year.
+Below is a actual breakdown of cost over the 3 days of the project.
+
 ![ed](./documentation/imgpsh_mobile_save.jpg)
 
 
